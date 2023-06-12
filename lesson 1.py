@@ -1,4 +1,4 @@
-# file = open('tyy.txt')
+# file = open('17.txt')
 # fileData = ''
 # for i in file:
 #     fileData += i
@@ -6,14 +6,14 @@
 
 
 
-file = open('tyy.txt')
-fileData = ''
-clippedData = ''
-s = 5
-for i in file:
-    fileData += i
+# file = open('tyy.txt')
+# fileData = ''
+# clippedData = ''
+# s = 5
+# for i in file:
+#     fileData += i
 
-while (s != len(fileData)):
-    clippedData += fileData[s]
-    s+=1
-print(clippedData)  
+# while (s != len(fileData)):
+#     clippedData += fileData[s]
+#     s+=1
+# print(clippedData)  
