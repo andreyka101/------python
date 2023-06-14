@@ -61,3 +61,6 @@
 #             count += 1
 #             m = max(m, l[i] + l[j])
 # print(count, m)
+
+r = min(3,7,4)
+print(r)

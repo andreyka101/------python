@@ -1,4 +1,4 @@
-# file = open('17.txt')
+# file = open('tyy.txt')
 # fileData = ''
 # for i in file:
 #     fileData += i
