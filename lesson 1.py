@@ -17,3 +17,15 @@
 #     clippedData += fileData[s]
 #     s+=1
 # print(clippedData)  
+
+
+
+# return or 19
+
+# def e (n):
+#     return n-4 or n+1
+# print(e(3))
+
+
+
+print(6 % 2)
