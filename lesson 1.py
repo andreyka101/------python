@@ -1,31 +1,22 @@
-# file = open('tyy.txt')
-# fileData = ''
-# for i in file:
-#     fileData += i
-# print(fileData)
+
+# x = 8**2020 + 4**2017 + 26 - 1
+# s = ''
+# while x != 0: 
+#     s += str(x % 2)
+#     x //= 2
+# s = s[::-1]
+# print(s.count("1"))
 
 
+# w = "igwfigwofhwefo"
+# w = w[::-1]
+# print (w)
 
-# file = open('tyy.txt')
-# fileData = ''
-# clippedData = ''
-# s = 5
-# for i in file:
-#     fileData += i
-
-# while (s != len(fileData)):
-#     clippedData += fileData[s]
-#     s+=1
-# print(clippedData)  
+# print(w.count("i"))
 
 
+# вар. 2
 
-# return or 19
+s = str(bin(8**2020 + 4**2017 + 26 - 1))
 
-# def e (n):
-#     return n-4 or n+1
-# print(e(3))
-
-
-
-print(6 % 2)
+print(s.count("1"))

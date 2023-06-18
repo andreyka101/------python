@@ -42,3 +42,16 @@
 #     if k == 999:
 #         print(a)
 #         break
+
+
+
+
+for a in range(300, 0, -1): 
+    k = 0
+    for x in range(100):
+        for y in range(100):
+            if (2*x + 3*y < 30) or (x + y >= a):
+                k += 1
+    if k == 100*100:
+        print(a)
+        break
