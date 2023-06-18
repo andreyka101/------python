@@ -1,3 +1,5 @@
+
+# сложный пример
 # num = 452022
 # count = 0
 # while True:
@@ -18,9 +20,17 @@
 # w = round(1200 ** 0.5)
 # print(w)
 
+# здесь неправильно числа в ответе повторяются 2 раза
+for i in range(174457,174505+1):
+    for q in range(2, i+1):
+        if i % q == 0:
+            print(q , i//q)
 
-# for i in range(174457,174505+1):
-#     for q in range(2, i+1):
-#         if i % q == 0:
-#             print(q , i/q)
-print(174505//2)
+
+
+# здесь правильно
+for i in range(174457,174505+1):
+    for q in range(2, (i // 2) +1):
+        if i % q == 0:
+            print(q , i//q)
+# print(174505//2)
